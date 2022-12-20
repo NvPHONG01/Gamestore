@@ -1,0 +1,6 @@
+.wrapper {
+  background-color: '#F5F5F5';
+  justify-content: "center";
+  display: "flex";
+  height: 201px;
+}
