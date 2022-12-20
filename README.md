@@ -1,25 +1,23 @@
-## Environment Prepare
+## Environment
 
-Install `node_modules`:
++ Node version 16 and above
++ yarn new version
 
-```bash
-npm install
-```
+## Run frontend
 
-or
++ Config API endpoint
 
-```bash
-yarn
-```
+  ```
+  $ cd frontend
+  ```
++ Install depedencies:
 
-### Start project
+  ```
+  yarn
+  ```
 
-```cd frontend
-npm start
-```
-or
++ Run server dev
 
-```cd frontend
-yarn start
-```
-
+  ```
+  $ yarn start
+  ```
