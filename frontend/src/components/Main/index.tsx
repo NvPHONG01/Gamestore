@@ -1,8 +1,10 @@
 const Main = () => {
   return (
-    <div style={{ backgroundColor: '#fff', height: 900, justifyContent: "center", display: "flex" }}>
-      <div style={{ width: 1440, backgroundColor: '#fff', height: 592 }}>
-        
+    <div style={{ backgroundColor: '#fff', justifyContent: "center", display: "flex" }}>
+      <div style={{ width: 1440, height: 592, justifyContent: 'center', display: 'flex' }}>
+        <div style={{ width: 1201, display: 'flex', flexDirection: 'column', height: 316 }}>
+          
+        </div>
       </div>
     </div>
   )

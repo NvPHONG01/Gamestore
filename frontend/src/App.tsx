@@ -1,10 +1,10 @@
 import React from 'react';
-import './App.css';
+import './App.scss';
 import Wrapper from './components';
 
 const App: React.FC = () => {
   return (
-    <div className="App">
+    <div>
       <Wrapper />
     </div>
   );

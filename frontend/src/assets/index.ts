@@ -1,0 +1,1 @@
+export const img_AppStore = require("../assets/imgs/logo_download_on_the_appstore.png")
