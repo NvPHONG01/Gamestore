@@ -4,7 +4,7 @@ const slider_1 = require("../assets/imgs/slider_1.jpg")
 const slider_2 = require("../assets/imgs/slider_2.jpg")
 const slider_3 = require("../assets/imgs/slider_3.jpg")
 
-export const Slider = [
+export const img_Slider = [
   slider_1,
   slider_2,
   slider_3

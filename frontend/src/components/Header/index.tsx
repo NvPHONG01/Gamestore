@@ -27,8 +27,8 @@ const Header = () => {
   ]
 
   return (
-    <div style={{ backgroundColor: '#F5F5F5', height: 201, justifyContent: "center", display: "flex" }}>
-      <div style={{ width: 1440, backgroundColor: '#F5F5F5', height: 201, display: "flex", justifyContent: "center" }}>
+    <div style={{ backgroundColor: '#fff', height: 201, justifyContent: "center", display: "flex" }}>
+      <div style={{ width: 1440, backgroundColor: '#fff', height: 201, display: "flex", justifyContent: "center" }}>
         <div style={{ width: 1201 }}>
           <div style={{ height: 42, display: 'flex', justifyContent: 'space-between', color: '#7a7878' }}>
             <div>
