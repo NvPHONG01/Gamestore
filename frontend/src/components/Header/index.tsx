@@ -14,15 +14,15 @@ const Header = () => {
   const DATA = [
     {
       icon: <HiOutlineMapPin />,
-      label: 'Deliver to 423651'
+      label: 'Địa chỉ tại Hà Nội'
     },
     {
       icon: <FaShippingFast />,
-      label: 'Track your order'
+      label: 'Theo dõi đơn hàng'
     },
     {
       icon: <BsPatchCheck />,
-      label: 'All Offers'
+      label: 'Tất cả ưu đãi'
     },
   ]
 
@@ -32,7 +32,7 @@ const Header = () => {
         <div style={{ width: 1201 }}>
           <div style={{ height: 42, display: 'flex', justifyContent: 'space-between', color: '#7a7878' }}>
             <div>
-              Welcome to worldwide SANji Store!
+              Chào mừng tới cửa hàng SANji
             </div>
             <div style={{ display: "flex", listStyle: 'none' }}>
               {DATA.map((x, id) => (
@@ -53,19 +53,19 @@ const Header = () => {
             <div>
               <div style={{ height: 48, width: 507, display: 'flex', alignItems: 'center', fontSize: '25px' }}>
                 <a href='...' style={{ color: '#62addf', paddingRight: '5px', width: '10%', paddingTop: '5px' }}><RiSearchLine /></a>
-                <input className='inputStyle' type="text" placeholder='Search essentials, groceries and more...' />
+                <input className='inputStyle' type="text" placeholder='Tìm kiếm ...' />
                 <a href='...' style={{ color: '#62addf', paddingRight: '5px', width: '10%', paddingTop: '5px' }}><TbListSearch /></a>
               </div>
             </div>
-            <div style={{ display: 'flex', width: '259px', justifyContent: 'space-between' }}>
-              <div style={{ display: 'flex', width: '60%', textAlign: 'center', alignItems: 'center' }}>
-                <a href='...' style={{ color: '#62addf', width: '10%', fontSize: '25px', paddingRight: '20px' }}><AiOutlineUser /></a>
-                Sign Up/Sign In
-              </div>
-              <div style={{ display: 'flex', width: '25%', textAlign: 'center', alignItems: 'center' }}>
-                <a href='...' style={{ color: '#62addf', width: '15%', fontSize: '25px', paddingRight: '20px' }}><HiOutlineShoppingCart /></a>
-                Card
-              </div>
+            <div style={{ display: 'flex', width: '300px', justifyContent: 'space-between' }}>
+              <a href="..." style={{ color: '#555555', display: 'flex', width: '70%', textAlign: 'center', alignItems: 'center', textDecoration: 'none' }}>
+                <p style={{ color: '#62addf', width: '10%', fontSize: '25px', paddingRight: '12px' }}><AiOutlineUser /></p>
+                Đăng nhập/Đăng ký
+              </a>
+              <a href="..." style={{ color: '#555555', display: 'flex', width: '30%', textAlign: 'center', alignItems: 'center', textDecoration: 'none' }}>
+                <p style={{ color: '#62addf', width: '15%', fontSize: '25px', paddingRight: '12px' }}><HiOutlineShoppingCart /></p>
+                Giỏ hàng
+              </a>
             </div>
           </div>
           <div style={{ height: 69, display: 'flex', alignItems: 'center' }}>

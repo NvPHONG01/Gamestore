@@ -1,47 +1,50 @@
 export const DATA_LIST_CATEGORIES = [
   {
-    label: 'Staples'
+    label: 'Điện thoại'
   },
   {
-    label: 'Beverages'
+    label: 'Laptop'
   },
   {
-    label: 'Personal Care'
+    label: 'Tablet'
   },
   {
-    label: 'Home Care'
+    label: 'Máy chiếu'
   },
   {
-    label: 'Baby Care'
+    label: 'Bách hóa'
   },
   {
-    label: 'Vegetables & Fruits'
+    label: 'Camera'
   },
   {
-    label: 'Snacks & Foods'
-  },
-  {
-    label: 'Dairy & Bakery'
+    label: 'Máy tính'
   },
 ]
 
 export const DATA_LIST_CUSTOMER = [
   {
-    label: 'About Us'
+    label: 'Trung tâm trợ giúp'
   },
   {
-    label: 'Terms & Conditions'
+    label: 'SANji Blog'
   },
   {
-    label: 'FAQ'
+    label: 'Hướng dẫn mua hàng'
   },
   {
-    label: 'Privacy Policy'
+    label: 'Thanh toán'
   },
   {
-    label: 'E-waste Policy'
+    label: 'Vận chuyển'
   },
   {
-    label: 'Cancellation & Return Policy'
+    label: 'Trả hàng & hoàn tiền'
+  },
+  {
+    label: 'Chăm sóc khách hàng'
+  },
+  {
+    label: 'Chính sách bảo hành'
   },
 ]

@@ -3,48 +3,48 @@ export const DATA_LIST = [
     colorIcon: '#fff',
     color: '#fff',
     colorBackgroup: '#418fc3',
-    label: 'Groceries'
+    label: 'Tất cả'
   },
   {
     colorIcon: '#62addf',
     color: '#424242',
     colorBackgroup: '',
-    label: 'Premium Fruits'
+    label: 'Điện thoại'
   },
   {
     colorIcon: '#62addf',
     color: '#424242',
     colorBackgroup: '#fff',
-    label: 'Home & Kitchen'
+    label: 'Laptop'
   },
   {
     colorIcon: '#62addf',
     color: '#424242',
     colorBackgroup: '#fff',
-    label: 'Fashion'
+    label: 'Tablet'
   },
   {
     colorIcon: '#62addf',
     color: '#424242',
     colorBackgroup: '#fff',
-    label: 'Electronics'
+    label: 'Phụ kiện'
   },
   {
     colorIcon: '#62addf',
     color: '#424242',
     colorBackgroup: '#fff',
-    label: 'Beauty'
+    label: 'Đồng Hồ'
   },
   {
     colorIcon: '#62addf',
     color: '#424242',
     colorBackgroup: '#fff',
-    label: 'Home Improvement'
+    label: 'PC & Máy in'
   },
   {
     colorIcon: '#62addf',
     color: '#424242',
     colorBackgroup: '#fff',
-    label: 'Sports, Toys & Luggage'
+    label: 'Dịch vụ tiện ích'
   },
 ]

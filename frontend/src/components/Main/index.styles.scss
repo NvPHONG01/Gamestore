@@ -19,6 +19,8 @@
   display: flex;
   align-items: center;
   color: #05ABF3;
+  cursor: pointer;
+  position: relative;
 }
 
 .btn__slider {
@@ -35,6 +37,7 @@
     border-top-right-radius: 50px;
     border-bottom-right-radius: 50px;
     justify-content: flex-start;
+    right: 18px;
   }
 
   .btn__right {
@@ -42,6 +45,7 @@
     border-top-left-radius: 50px;
     border-bottom-left-radius: 50px;
     justify-content: flex-end;
+    left: 18px;
   }
 }
 
