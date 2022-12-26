@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/gamestore/static/css/main.fc9a3079.css",
-    "main.js": "/gamestore/static/js/main.c0a66984.js",
-    "index.html": "/gamestore/index.html",
-    "main.fc9a3079.css.map": "/gamestore/static/css/main.fc9a3079.css.map",
-    "main.c0a66984.js.map": "/gamestore/static/js/main.c0a66984.js.map"
+    "main.css": "/Gamestore/static/css/main.fc9a3079.css",
+    "main.js": "/Gamestore/static/js/main.c0a66984.js",
+    "index.html": "/Gamestore/index.html",
+    "main.fc9a3079.css.map": "/Gamestore/static/css/main.fc9a3079.css.map",
+    "main.c0a66984.js.map": "/Gamestore/static/js/main.c0a66984.js.map"
   },
   "entrypoints": [
     "static/css/main.fc9a3079.css",
