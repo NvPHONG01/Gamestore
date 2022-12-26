@@ -2,7 +2,7 @@
 import { useEffect, useState } from 'react';
 import { BiChevronLeft, BiChevronRight } from 'react-icons/bi';
 import { img_Slider } from '../../../assets';
-import '../index.styles.scss'
+import '../main.styles.scss'
 
 export const Slide = () => {
   const [count, setCount] = useState<number>(0);

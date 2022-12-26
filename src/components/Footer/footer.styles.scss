@@ -1,0 +1,27 @@
+.star {
+  width: 2px;
+  height: 0;
+  color: #05abf3;
+  position: relative;
+  display: block;
+  border-right: 6px solid transparent;
+  border-bottom: 119px solid #05abf3;
+  border-left: 154px solid transparent;
+  -webkit-transform: rotate(58deg);
+}
+
+.wrapper__f {
+  background-color: rgb(12, 155, 218);
+  height: 592px;
+  justify-content: center;
+  display: flex;
+  margin-top: 50px;
+}
+
+.inner__f {
+  width: 1440px;
+  background-color: rgb(12, 155, 218);
+  height: 592px;
+  display: flex;
+  justify-content: center;
+}

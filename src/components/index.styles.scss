@@ -4,8 +4,8 @@
 
 $mobie: 1300px;
 
-@media screen and (max-width: 1300px) {
+@media screen and (max-width: $mobie) {
   .Wrapper {
-    width: 1300px;
+    width: 1330px;
   }
 }

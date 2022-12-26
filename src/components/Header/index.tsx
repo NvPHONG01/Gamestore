@@ -7,7 +7,7 @@ import { AiOutlineUser } from 'react-icons/ai'
 import { VscListSelection } from 'react-icons/vsc'
 import { FiChevronDown } from 'react-icons/fi'
 import { DATA_LIST } from './constHeader';
-import './index.styles.scss'
+import './header.styles.scss'
 
 const Header = () => {
 
@@ -26,54 +26,50 @@ const Header = () => {
     },
   ]
   return (
-    <div style={{ backgroundColor: '#fff', height: 201, justifyContent: "center", display: "flex" }}>
-      <div style={{ width: 1440, backgroundColor: '#fff', height: 201, display: "flex", justifyContent: "center" }}>
+    <div className='wrapper'>
+      <div className='inner'>
         <div style={{ width: 1201 }}>
-          <div style={{ height: 42, display: 'flex', justifyContent: 'space-between', color: '#7a7878' }}>
+          <div className='header__h'>
             <div>
               Chào mừng tới cửa hàng SANji
             </div>
-            <div style={{ display: "flex", listStyle: 'none' }}>
+            <div className='container'>
               {DATA.map((x, id) => (
-                <li key={id} style={{ paddingLeft: '30px', display: 'flex' }}>
+                <li key={id} >
                   <p style={{ color: '#62addf', paddingRight: '5px' }}>{x.icon}</p>
                   <p>{x.label}</p>
                 </li>
               ))}
             </div>
           </div>
-          <div style={{ height: 90, display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
-            <div>
-              <div style={{ color: '#62addf', display: 'flex', width: 241, alignItems: 'flex-end' }}>
-                <span style={{ fontSize: '45px', width: 75, float: 'left' }}><VscListSelection /></span>
-                <h1> Sanji Store</h1>
-              </div>
+          <div className='header__m'>
+            <div className='left'>
+              <span><VscListSelection /></span>
+              <h1> Sanji Store</h1>
             </div>
-            <div>
-              <div style={{ height: 48, width: 507, display: 'flex', alignItems: 'center', fontSize: '25px' }}>
-                <a href='...' style={{ color: '#62addf', paddingRight: '5px', width: '10%', paddingTop: '5px' }}><RiSearchLine /></a>
-                <input className='inputStyle' type="text" placeholder='Tìm kiếm ...' />
-                <a href='...' style={{ color: '#62addf', paddingRight: '5px', width: '10%', paddingTop: '5px' }}><TbListSearch /></a>
-              </div>
+            <div className='center'>
+              <a href='...'><RiSearchLine /></a>
+              <input className='inputStyle' type="text" placeholder='Tìm kiếm ...' />
+              <a href='...'><TbListSearch /></a>
             </div>
-            <div style={{ display: 'flex', width: '300px', justifyContent: 'space-between' }}>
-              <a href="..." style={{ color: '#555555', display: 'flex', width: '70%', textAlign: 'center', alignItems: 'center', textDecoration: 'none' }}>
-                <p style={{ color: '#62addf', width: '10%', fontSize: '25px', paddingRight: '12px' }}><AiOutlineUser /></p>
+            <div className='right'>
+              <a href='...' className='a__container' style={{ width: '70%' }}>
+                <p style={{ width: '10%' }}><AiOutlineUser /></p>
                 Đăng nhập/Đăng ký
               </a>
-              <a href="..." style={{ color: '#555555', display: 'flex', width: '30%', textAlign: 'center', alignItems: 'center', textDecoration: 'none' }}>
-                <p style={{ color: '#62addf', width: '15%', fontSize: '25px', paddingRight: '12px' }}><HiOutlineShoppingCart /></p>
+              <a href='...' className='a__container' style={{ width: '30%' }}>
+                <p style={{ width: '15%' }}><HiOutlineShoppingCart /></p>
                 Giỏ hàng
               </a>
             </div>
           </div>
-          <div style={{ height: 69, display: 'flex', alignItems: 'center' }}>
-            <div style={{ display: 'flex', justifyContent: 'space-between', width: 1201 }}>
+          <div className='header__f'>
+            <div className='menu'>
               {DATA_LIST.map((x, id) =>
-                <div key={id} style={{ fontSize: '14px', backgroundColor: `${x.colorBackgroup}`, borderRadius: '22px' }}>
-                  <div style={{ paddingLeft: '15px', paddingRight: '15px', display: 'flex', alignItems: 'center', }}>
+                <div className='menu__list' key={id} style={{ backgroundColor: `${x.colorBackgroup}` }}>
+                  <div>
                     <p style={{ color: `${x.color}` }}>{x.label}</p>
-                    <span style={{ paddingLeft: '5px', fontSize: '25px', paddingTop: '5px', color: `${x.colorIcon}` }}><FiChevronDown /></span>
+                    <span style={{ color: `${x.colorIcon}` }}><FiChevronDown /></span>
                   </div>
                 </div>
               )}
