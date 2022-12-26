@@ -1,3 +1,11 @@
 .Wrapper {
   display: block;
 }
+
+$mobie: 1300px;
+
+@media screen and (max-width: 1300px) {
+  .Wrapper {
+    width: 1300px;
+  }
+}

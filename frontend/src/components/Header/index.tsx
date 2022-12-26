@@ -25,7 +25,6 @@ const Header = () => {
       label: 'Tất cả ưu đãi'
     },
   ]
-
   return (
     <div style={{ backgroundColor: '#fff', height: 201, justifyContent: "center", display: "flex" }}>
       <div style={{ width: 1440, backgroundColor: '#fff', height: 201, display: "flex", justifyContent: "center" }}>
