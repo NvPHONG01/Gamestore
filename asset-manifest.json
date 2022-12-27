@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/Gamestore/static/css/main.64d6e3f1.css",
-    "main.js": "/Gamestore/static/js/main.f739f15a.js",
-    "index.html": "/Gamestore/index.html",
-    "main.64d6e3f1.css.map": "/Gamestore/static/css/main.64d6e3f1.css.map",
-    "main.f739f15a.js.map": "/Gamestore/static/js/main.f739f15a.js.map"
+    "main.css": "/shopclone/static/css/main.64d6e3f1.css",
+    "main.js": "/shopclone/static/js/main.f739f15a.js",
+    "index.html": "/shopclone/index.html",
+    "main.64d6e3f1.css.map": "/shopclone/static/css/main.64d6e3f1.css.map",
+    "main.f739f15a.js.map": "/shopclone/static/js/main.f739f15a.js.map"
   },
   "entrypoints": [
     "static/css/main.64d6e3f1.css",
